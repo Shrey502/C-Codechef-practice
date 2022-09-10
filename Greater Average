@@ -1,0 +1,19 @@
+#include <iostream>
+using namespace std;
+
+int main() {
+	float a,b,c,d,i;
+	
+	cin>>a;
+	for(i=0;i<a;i++){
+	    cin>>b>>c>>d;
+	    if( (b+c)/2 > d){
+	        cout<<"YES"<<"\n";
+	    }
+	    else{
+	    	cout<<"NO"<<"\n";
+		}
+	}
+	
+	return 0;
+}
